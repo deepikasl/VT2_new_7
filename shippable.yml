@@ -13,24 +13,10 @@ integrations:
     - integrationName: email
       type: email
       recipients: 
-        - shiptest.rc.me@gmail.com
-        - shiptest.rc.ow@gmail.com
+        - deepika@shippable.com
       
-    - integrationName: slack
+    - integrationName: deepika-slack
       type: slack
       recipients:
-        - "#public-chnl"
-        - pvt-channel
+        - "#deepika-test"
       
-    - integrationName: irc
-      type: irc
-      recipients:
-        - "chat.freenode.net#test1"
-      
-    - integrationName: hipchat
-      type: hipchat
-      recipients:
-        - '#shiptestpub'
-        - '#shiptestpvt'
-        - '@shiptest'
-    

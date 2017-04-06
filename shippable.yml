@@ -10,7 +10,7 @@ build:
     
 integrations:
   notifications:  
-    - integrationName: email
+    - integrationName: deepika-email
       type: email
       recipients: 
         - deepika@shippable.com

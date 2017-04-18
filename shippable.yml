@@ -11,16 +11,11 @@ build:
     
 integrations:
   notifications:  
-    - integrationName: deepika-email
+    - integrationName: email
       type: email
       recipients: 
         - deepika@shippable.com
       sendConsoleLogs: true
       sendCoverageReports: true
       sendTestReports: true
-      
-    - integrationName: deepika-slack
-      type: slack
-      recipients:
-        - "#deepika-test"
       

@@ -17,6 +17,7 @@ integrations:
         - deepika@shippable.com
       sendConsoleLogs: true
       sendCoverageReports: true
+      sendTestReports: true
       
     - integrationName: deepika-slack
       type: slack

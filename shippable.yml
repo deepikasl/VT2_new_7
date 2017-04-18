@@ -16,7 +16,7 @@ integrations:
       recipients: 
         - deepika@shippable.com
       sendLogsInEmail: true
-      sendCoverageReport: true
+      sendCoverageReportInEmail: true
       
     - integrationName: deepika-slack
       type: slack

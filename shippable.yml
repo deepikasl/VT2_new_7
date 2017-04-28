@@ -19,3 +19,4 @@ integrations:
       sendCoverageReports: true
       sendTestReports: true
       
+

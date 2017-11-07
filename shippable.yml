@@ -8,7 +8,7 @@ node_js:
 build:
   ci:
     - node --version
-    - source '$(shipctl get_resource_state VT1_runCI)/VT1_runCI.env'
+    - source '$(shipctl get_resource_state VT1_runCI)'
     - echo "TRIGGER_REASON-->"$TRIGGER_REASON
     
 integrations:

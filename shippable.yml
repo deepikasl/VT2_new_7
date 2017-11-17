@@ -12,6 +12,5 @@ build:
     - echo $FOO
     - echo $GOO
     - echo $BUILD_NUM
-   
-      
-
+    
+    

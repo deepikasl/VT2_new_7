@@ -12,15 +12,6 @@ build:
     - echo $FOO
     - echo $GOO
     - echo $BUILD_NUM
-    
-integrations:
-  notifications:  
-    - integrationName: email
-      type: email
-      recipients: 
-        - deepika@shippable.com
-      sendConsoleLogs: true
-      sendCoverageReports: true
-      sendTestReports: true
+   
       
 
